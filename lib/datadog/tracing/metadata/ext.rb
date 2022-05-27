@@ -145,6 +145,14 @@ module Datadog
           TYPE = 'sql'
           TAG_QUERY = 'sql.query'
         end
+
+        module Kind
+          SERVER = 'server'
+          CLIENT = 'client'
+          PRODUCER = 'producer'
+          CONSUMER = 'consumer'
+          INTERNAL = 'internal'
+        end
       end
     end
   end
